@@ -14,8 +14,9 @@ class Home {
     }
 }
 
-JohnHome = new Home ("Londres", "appartement", 3)
+JohnHome = new Home ("Londres", "appartement", 3, true)
 JohnHome.describe()
 
 CeliaHome = new Home ("Bordeaux", "maison", 5)
+CeliaHome.describe()
 
